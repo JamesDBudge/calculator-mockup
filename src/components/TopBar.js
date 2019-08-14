@@ -6,6 +6,7 @@ const TopBar = props => (
         <div className="red-circle"></div>
         <div className="yellow-circle"></div>
         <div className="green-circle"></div>
+        Calculator
     </div>
 )
 
