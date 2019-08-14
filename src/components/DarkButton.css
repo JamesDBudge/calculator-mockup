@@ -1,0 +1,11 @@
+.button-dark {
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    background-color: #777;
+    color: #e0e1e6;
+    flex: 1;
+    outline: 0.15rem solid #555;
+}
