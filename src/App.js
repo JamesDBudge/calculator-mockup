@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import './App.css';
 import Button from './components/Button';
 import Screen from './components/Screen';
+import TopBar from './components/TopBar';
+import DoubleWideButton from './components/DoubleWideButton'
 
 class App extends Component {
   constructor(props) {
@@ -14,9 +16,8 @@ class App extends Component {
     return (
       <div className="App">
         <div className="calc-wrapper">
-        <div className="row">
-            <Screen input={this.state.input}></Screen>
-        </div>
+        <TopBar></TopBar>
+        <Screen input={this.state.input}></Screen>
         <div className="row">
             <Button>AC</Button>
             <Button>+/-</Button>
@@ -42,8 +43,7 @@ class App extends Component {
             <Button>+</Button>
           </div>
           <div className="row">
-            <Button>0</Button>
-            <Button>0</Button>
+            <DoubleWideButton>0</DoubleWideButton>
             <Button>.</Button>
             <Button>=</Button>
           </div>

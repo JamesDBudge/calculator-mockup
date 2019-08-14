@@ -1,4 +1,4 @@
-.button-wrapper {
+.double-wide-button {
     height: 4rem;
     display: flex;
     justify-content: center;
@@ -6,11 +6,6 @@
     font-size: 1.3rem;
     background-color: #888;
     color: #e0e1e6;
-    flex: 1;
+    flex: 2;
     outline: 0.15rem solid #555;
-}
-
-.operator {
-    background-color: #fe9241;
-    color: white;
 }

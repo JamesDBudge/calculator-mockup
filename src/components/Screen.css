@@ -1,12 +1,12 @@
 .screen {
-    height: 6rem;
+    height: 5rem;
     display: flex;
     justify-content: flex-end;
-    align-items: baseline;
-    font-weight: bold;
-    font-size: 1.5rem;
-    background-color: #666;
+    align-items: flex-end;
+    font-size: 4.5rem;
+    font-weight: lighter;
+    background-color: #555;
     color: white;
-    padding: 0.5rem;
-    outline: 0.15rem solid #666;
+    padding: 0.3rem 1rem;
+    outline: 0.15rem solid #555;
 }
